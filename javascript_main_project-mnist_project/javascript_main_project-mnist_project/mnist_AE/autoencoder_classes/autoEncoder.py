@@ -14,10 +14,9 @@ import pickle as pkl
 
 class AutoEncoder:
 
-    def __init__(self, img_shape, latent_space_dims, batch_size):
+    def __init__(self, img_shape, batch_size):
 
        self.img_shape = img_shape
-       self.latent_space_dims = latent_space_dims
        self.encoder = None
        self.latent_space = None
        self.decoder = None
@@ -127,6 +126,10 @@ class AutoEncoder:
         if os.path.exists(os.path.join(folder, name)) == False:
             os.mkdir(os.path.join(folder, name))
 
+        filename = open(os.path.join(folder, name, 'history.pkl'), 'wb')
+        pkl.dump(self.history.history, filename)
+        filename.close()
+
 
         if save_type == 'model':
 
@@ -164,6 +167,7 @@ class AutoEncoder:
             filename = open(os.path.join(folder, name,'reconstruction_error.pkl'), 'wb')
             pkl.dump(RE, filename)
             filename.close()
+
             print('SAVE WEIGHTS COMPLETE')
 
 
@@ -179,10 +183,11 @@ class AutoEncoder:
 
 
     def pca(self, input, dimensions):
-
+        time_start = time.time()
         pca = decomposition.PCA(n_components=dimensions)
         pca.fit(input)
         input = pca.transform(input)
+        print('PCA done! Time elapsed: {} seconds'.format(time.time() - time_start))
         return input
 
 

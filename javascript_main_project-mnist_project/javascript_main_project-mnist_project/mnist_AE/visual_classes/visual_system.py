@@ -1,4 +1,4 @@
-from autoencoder_classes.variation_AutoEncoder import VariationAutoEncoder
+from autoencoder_classes.old_code.variation_AutoEncoder import VariationAutoEncoder
 import os
 
 class VisualSystem:

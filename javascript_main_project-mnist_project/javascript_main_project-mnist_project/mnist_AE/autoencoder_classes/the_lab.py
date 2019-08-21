@@ -1,12 +1,7 @@
-from keras import layers
-from keras import backend as K
-import keras
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-from keras.models import load_model
-from autoencoder_classes.variation_AutoEncoder import VariationAutoEncoder
-from autoencoder_classes.cnn_with_dense_lts import CNN_DenseLatentSpace
+from autoencoder_classes.old_code.cnn_with_dense_lts import CNN_DenseLatentSpace
 
 make_plot = False
 
