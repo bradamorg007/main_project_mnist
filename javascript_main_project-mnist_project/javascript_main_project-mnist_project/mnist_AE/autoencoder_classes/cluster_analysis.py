@@ -142,6 +142,12 @@ def run_main():
     # NEEEED TO ADD PCA VERSION TO IT AND NEEED TO BASELINE WITH JUST CLUSTER FUNCTION ********************************
 
 
+    print()
+    print('===============================================================================================')
+    print('BEGIN CLUSTER ANALYSIS TRAINING')
+    print('===============================================================================================')
+    print()
+
     folder = 'clustering_analysis_data'
     filename = 'average_acc_loss_data'
 

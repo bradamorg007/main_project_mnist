@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb359625-e83a-4d28-9f87-46e3e5166e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/autoencoder_classes/convolutional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoencoder_classes/fully_connected.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoencoder_classes/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/autoEncoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/autoEncoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mnist_AE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mnist_AE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autoencoder_classes/cluster_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/cluster_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/cnn_with_cnn_lts.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/old_code/cnn_with_cnn_lts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/cnn_with_dense_lts.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/old_code/cnn_with_dense_lts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/models/vae_test/reconstruction_error.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/models/vae_test/weights_decoder_model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/models/vae_test/weights_encoder_model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/models/vae_test/weights_model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/the_lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/the_lab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder_classes/variation_AutoEncoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/old_code/variation_AutoEncoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_classes/visual_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_classes/visual_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoencoder_classes/convolutional.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/convolutional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoencoder_classes/fully_connected.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/fully_connected.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoencoder_classes/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder_classes/runner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,68 +16,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/autoencoder_classes/fully_connected.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-                <element signature="e#229#2216#0" />
-                <element signature="e#300#523#0" />
-                <element signature="e#529#1181#0" />
-                <element signature="e#1472#2369#0" />
-                <element signature="e#531#1010#0" />
-                <element signature="e#531#1010#0" />
-                <element signature="e#916#1832#0" />
-                <element signature="e#1890#2533#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoencoder_classes/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/autoencoder_classes/cluster_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="225" selection-start-line="225" selection-end-line="229" selection-end-column="11" />
+            <state relative-caret-position="-302">
+              <caret line="139" column="15" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="15" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
-                <element signature="e#290#368#0" />
-                <element signature="e#301#636#0" />
-                <element signature="e#683#1246#0" />
-                <element signature="e#1681#4406#0" />
-                <element signature="e#267#487#0" />
-                <element signature="e#539#908#0" />
-                <element signature="e#1284#1701#0" />
-                <element signature="e#2911#4049#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoencoder_classes/convolutional.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="223" column="15" selection-start-line="223" selection-start-column="13" selection-end-line="223" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-                <element signature="e#226#9995#0" />
-                <element signature="e#526#2358#0" />
               </folding>
             </state>
           </provider>
@@ -112,10 +59,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/autoencoder_classes/autoEncoder.py" />
-        <option value="$PROJECT_DIR$/autoencoder_classes/convolutional.py" />
-        <option value="$PROJECT_DIR$/autoencoder_classes/cluster_analysis.py" />
         <option value="$PROJECT_DIR$/autoencoder_classes/runner.py" />
+        <option value="$PROJECT_DIR$/autoencoder_classes/convolutional.py" />
         <option value="$PROJECT_DIR$/autoencoder_classes/fully_connected.py" />
+        <option value="$PROJECT_DIR$/autoencoder_classes/cluster_analysis.py" />
       </list>
     </option>
   </component>
@@ -125,10 +72,11 @@
         <option value="$PROJECT_DIR$/.idea/mnist_AE.iml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -159,7 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../main_project_static/src" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -179,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cluster_analysis">
+  <component name="RunManager" selected="Python.runner">
     <configuration name="cluster_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mnist_AE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,8 +191,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mnist_AE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoencoder_classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autoencoder_classes/runner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.runner" />
         <item itemvalue="Python.cluster_analysis" />
         <item itemvalue="Python.convolutional" />
         <item itemvalue="Python.fully_connected" />
@@ -274,23 +244,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24900925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5060403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32956153" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5304102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9193776" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50636494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,17 +295,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoencoder_classes/autoEncoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoencoder_classes/convolutional.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="223" column="15" selection-start-line="223" selection-start-column="13" selection-end-line="223" selection-end-column="15" />
+        <state relative-caret-position="90">
+          <caret line="223" column="17" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
             <element signature="e#226#9995#0" />
@@ -344,48 +307,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoencoder_classes/cluster_analysis.py">
+    <entry file="file://$PROJECT_DIR$/autoencoder_classes/fully_connected.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="225" selection-start-line="225" selection-end-line="229" selection-end-column="11" />
+        <state relative-caret-position="268">
+          <caret line="174" column="35" selection-start-line="174" selection-start-column="35" selection-end-line="174" selection-end-column="35" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <element signature="e#290#368#0" />
-            <element signature="e#301#636#0" />
-            <element signature="e#683#1246#0" />
-            <element signature="e#1681#4406#0" />
-            <element signature="e#267#487#0" />
-            <element signature="e#539#908#0" />
-            <element signature="e#1284#1701#0" />
-            <element signature="e#2911#4049#0" />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoencoder_classes/autoEncoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autoencoder_classes/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoencoder_classes/fully_connected.py">
+    <entry file="file://$PROJECT_DIR$/autoencoder_classes/cluster_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
+        <state relative-caret-position="-302">
+          <caret line="139" column="15" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="15" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="e#229#2216#0" />
-            <element signature="e#300#523#0" />
-            <element signature="e#529#1181#0" />
-            <element signature="e#1472#2369#0" />
-            <element signature="e#531#1010#0" />
-            <element signature="e#531#1010#0" />
-            <element signature="e#916#1832#0" />
-            <element signature="e#1890#2533#0" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

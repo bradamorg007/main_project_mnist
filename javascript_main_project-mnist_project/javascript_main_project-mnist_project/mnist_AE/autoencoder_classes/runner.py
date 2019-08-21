@@ -5,8 +5,8 @@ import autoencoder_classes.cluster_analysis as ClusterAnalysis
 if __name__ == '__main__':
 
     CNN_network.run_main()
-    FE_Network.e
-
+    FE_Network.run_main()
+    ClusterAnalysis.run_main()
 
     print()
     print('===============================================================================================')

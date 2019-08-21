@@ -140,6 +140,12 @@ class FullyConnectedAE(AutoEncoder):
         print('LOAD WEIGHTS COMPLETE')
 
 def run_main():
+    print()
+    print('===============================================================================================')
+    print('BEGIN FULLY CONNECTED TRAINING')
+    print('===============================================================================================')
+    print()
+
     FC = FullyConnectedAE(img_shape=(28, 28, 1), batch_size=128)
     FC.data_prep(keep_labels=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
@@ -164,4 +170,10 @@ def run_main():
             save_name = 'FC'+str(n)+'_'+str(latent_dim)
             FC.save(name=save_name, save_type='weights')
 
+    print()
+    print('===============================================================================================')
+    print('COMPLETE FULLY CONNECTED TRAINING')
+    print('===============================================================================================')
+    print()
 if __name__ == '__main__':
+    run_main()
